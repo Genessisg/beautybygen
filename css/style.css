@@ -103,8 +103,8 @@
 
      /* Indiviual Card Style */
      .card-glam {
-        background-color: #fcf8ec;
-        border: 3px dotted #ebd8eb;
+        background-color: #fbf0fd;
+        border: 3px dotted #f59df8;
      }
      .card-skin {
         background-color: #ecd5cd;
@@ -112,11 +112,21 @@
      }
      .card-hair {
         background-color: #8c7162;
-        border: 3px dotted #a08678;
+        border: 3px dotted #554842;
         color: #fff;
      }
 
      .card-hair .btn {
+        background-color: #fdfaf2;
+        color: #8c7162;
+     }
+
+     .card-skin .btn {
+        background-color: #fdfaf2;
+        color: #8c7162;
+     }
+
+     .card-glam .btn {
         background-color: #fdfaf2;
         color: #8c7162;
      }
