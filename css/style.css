@@ -217,7 +217,7 @@
 }
 
 .steps-list p {
-    margin: 5px 0;
+    margin: 5px auto;
     font-size: 13px;
 }
 
@@ -250,6 +250,21 @@
     font-weight: normal;
     color: #4a3b32;
     margin-bottom: 20px;
+}
+
+.inspo-gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px;
+}
+
+.inspo-item img {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 1px solid #c9a393;
+   border-radius: 4px;
 }
 
      @media (max-width: 513px) {
