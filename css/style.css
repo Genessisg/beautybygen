@@ -132,10 +132,24 @@
      }
 
    /* Single post pages */
+
+     body {
+      background-image: url(../images/posts/pink-background.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+     }
+
    .post-contrainer {
       max-width: 800px;
       margin: 40px auto;
-      background-color: #fcf8ec;
+      background-image: url(../images/posts/pink-background.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      box-shadow: 5px 5px 15px 0 #ffffff;
       padding: 60px 40px;
       border-radius: 40px;
    }
@@ -189,7 +203,7 @@
    }
 
    .post-content h3 {
-    font-size: 18px;
+    font-size: 24px;
     color: #c9a393;
     text-align: center;
     margin-top: 40px;
