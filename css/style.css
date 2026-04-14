@@ -133,7 +133,7 @@
 
    /* Single post pages */
 
-     body {
+     .body-posts {
       background-image: url(../images/posts/pink-background.png);
       background-size: cover;
       background-position: center;
@@ -141,10 +141,31 @@
       background-repeat: no-repeat;
      }
 
-   .post-contrainer {
+   .post-container {
       max-width: 800px;
       margin: 40px auto;
       background-image: url(../images/posts/pink-background.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      box-shadow: 5px 5px 15px 0 #ffffff;
+      padding: 60px 40px;
+      border-radius: 40px;
+   }
+
+   .body-posts-skin {
+      background-image: url(../images/posts/background-creamcolor.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+   }
+
+   .post-container-skin {
+       max-width: 800px;
+      margin: 40px auto;
+      background-image: url(../images/posts/background-creamcolor.png);
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
